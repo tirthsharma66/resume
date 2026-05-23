@@ -1,0 +1,23 @@
+print("AI Chatbox: Hello! Type 'bye' to exit.")
+
+while True:
+    user = input("You: ").lower()
+
+    if user == "hello":
+        print("AI: Hi there!")
+
+    elif user == "how are you":
+        print("AI: I am fine. How about you?")
+
+    elif user == "what is your name":
+        print("AI: I am a Python AI Chatbox.")
+
+    elif user == "who made you":
+        print("AI: I was created using Python.")
+
+    elif user == "bye":
+        print("AI: Goodbye!")
+        break
+
+    else:
+        print("AI: Sorry, I don't understand that.")
